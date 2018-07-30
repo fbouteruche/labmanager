@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "labmanager.web", "labmanage
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "labmanager.core", "labmanager.core\labmanager.core.csproj", "{279CCA48-4DC2-4433-B22E-2CA85D7B0F9F}"
 EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "labmanager.resources", "labmanager.resources\labmanager.resources.deployproj", "{94C3CD8C-0E4B-4929-9A15-0568A6EA1788}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{279CCA48-4DC2-4433-B22E-2CA85D7B0F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{279CCA48-4DC2-4433-B22E-2CA85D7B0F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{279CCA48-4DC2-4433-B22E-2CA85D7B0F9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94C3CD8C-0E4B-4929-9A15-0568A6EA1788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94C3CD8C-0E4B-4929-9A15-0568A6EA1788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94C3CD8C-0E4B-4929-9A15-0568A6EA1788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94C3CD8C-0E4B-4929-9A15-0568A6EA1788}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
