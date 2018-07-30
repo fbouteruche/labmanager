@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "labmanager.console": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
