@@ -14,8 +14,13 @@ namespace labmanager.console
             string environmentName = System.Environment.GetEnvironmentVariable("DOTNETCORE_ENVIRONMENT");
             var builder = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
-                .AddJsonFile($"appsettings.{environmentName}.json", optional: true, reloadOnChange: true);
+                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
+
+            if(environmentName == "Development")
+            {
+
+                builder.AddUserSecrets<Program>();
+            }
 
             IConfigurationRoot configuration = builder.Build();
 

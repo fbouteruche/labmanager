@@ -3,17 +3,16 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <UserSecretsId>60664D38-BCBA-4C2B-940A-11DA0CECA0CE</UserSecretsId>
   </PropertyGroup>
-
   <ItemGroup>
-    <None Remove="appsettings.Development.json" />
+    <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="2.0.2" />
+  </ItemGroup>
+  <ItemGroup>
     <None Remove="appsettings.json" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="appsettings.Development.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="appsettings.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -22,6 +21,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.1.1" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="2.1.1" />
   </ItemGroup>
 
   <ItemGroup>
