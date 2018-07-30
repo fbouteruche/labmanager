@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\labmanager.core\labmanager.core.csproj" />
+    <ProjectReference Include="..\labmanager.core\labmanager.core.csproj" />
   </ItemGroup>
 
   <ItemGroup>
