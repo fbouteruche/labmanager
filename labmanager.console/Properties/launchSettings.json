@@ -2,6 +2,7 @@
   "profiles": {
     "labmanager.console": {
       "commandName": "Project",
+      "commandLineArgs": "environment create  4d387896-5724-4f09-a148-9003f574fb82",
       "environmentVariables": {
         "DOTNETCORE_ENVIRONMENT": "Development"
       }
